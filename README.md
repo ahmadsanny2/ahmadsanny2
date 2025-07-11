@@ -5,9 +5,7 @@
   <img src="https://komarev.com/ghpvc/?username=ahmadsanijabarulloh&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
 
-- 🌱 I’m currently learning **DevOps, Cloud Engineering, and Open Source Contributions**
-
-- 💬 Ask me about **JavaScript, TypeScript, Node.js, React, and Backend Development**
+- 🌱 I’m currently learning **Next JS, Laravel**
 
 - 📫 How to reach me **ahmadsanijabarulloh.02@gmail.com**
 
