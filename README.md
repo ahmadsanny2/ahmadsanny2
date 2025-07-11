@@ -9,8 +9,6 @@
 
 - 📫 How to reach me **ahmadsanijabarulloh.02@gmail.com**
 
-- ⚡ Fun fact **I love automating boring stuff and diving into clean code**
-
 ---
 
 ### 🛠️ Languages and Tools
