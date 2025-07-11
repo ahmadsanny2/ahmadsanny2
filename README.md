@@ -26,6 +26,6 @@
 ### 🌐 Connect with me
 
 <p align="left">
-  <a href="https://linkedin.com/in/ahmadsanijabarulloh" target="blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="linkedin" /></a>
+  <a href="https://linkedin.com/in/ahmadsanny02" target="blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="linkedin" /></a>
   <a href="mailto:ahmadsanijabarulloh.02@gmail.com"><img align="center" src="https://skillicons.dev/icons?i=gmail" alt="gmail" /></a>
 </p>
