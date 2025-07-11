@@ -14,7 +14,7 @@
 ### 🛠️ Languages and Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=js,react,nextjs,php,git,github,linux,vscode" />
+  <img src="https://skillicons.dev/icons?i=js,react,nextjs,php,laravel,git,github,linux,vscode" />
 </p>
 
 ---
