@@ -18,23 +18,7 @@
 ### 🛠️ Languages and Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,nextjs,express,mongodb,postgres,git,github,docker,linux,vscode" />
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ahmadsanijabarulloh&show_icons=true&locale=en" alt="github stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmadsanijabarulloh&" alt="streak stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ahmadsanijabarulloh&layout=compact" alt="top langs" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,express,git,github,linux,vscode" />
 </p>
 
 ---
