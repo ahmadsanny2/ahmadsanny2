@@ -1,12 +1,10 @@
-<h1 align="center">Hi there, I'm Ahmad Sani Jabarulloh! 👋</h1>
+![Header](./header.png)
 
-<h3 align="center">Frontend Developer | Tech Enthusiast</h3>
+### About Me
 
-### 👨‍💻 About Me
-
-- 🔭 I’m a passionate **Frontend Developer** who loves building user-friendly and responsive web applications.
-- 🌱 Currently exploring and sharpening my skills in modern web technologies and full-stack development.
-- 💼 I am highly open to **full-time opportunities, freelance projects, and open-source collaborations**.
+- I’m a passionate **Frontend Developer** who loves building user-friendly and responsive web applications.
+- Currently exploring and sharpening my skills in modern web technologies and full-stack development.
+- I am highly open to **full-time opportunities, freelance projects, and open-source collaborations**.
 
 ### Technologies and Tools
 
@@ -64,5 +62,5 @@
 
 ###
 
-### 🌐 Socials:
+### Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ahmadsanny02) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmadsanny02) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ahmadsanijabarulloh.02@gmail.com) 
