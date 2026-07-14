@@ -1,14 +1,14 @@
 ![Header](./header.png)
 
-### About Me
+### 👨‍💻 About Me
 
-- I’m a passionate **Frontend Developer** who loves building user-friendly and responsive web applications.
-- Currently exploring and sharpening my skills in modern web technologies and full-stack development.
-- I am highly open to **full-time opportunities, freelance projects, and open-source collaborations**.
+- 🔭 I’m a passionate **Frontend Developer** who loves building user-friendly and responsive web applications.
+- 🌱 Currently exploring and sharpening my skills in modern web technologies and full-stack development.
+- 💼 I am highly open to **full-time opportunities, freelance projects, and open-source collaborations**.
 
-### Technologies and Tools
+### 💻 Technologies and Tools
 
-<div data-importer="techs" align="center">
+<div data-importer="techs">
   <img src="https://skillicons.dev/icons?i=html" height="60" alt="html5 logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=css" height="60" alt="css logo"  />
@@ -47,20 +47,20 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=postman" height="60" alt="postman logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=md" height="60" alt="markdown logo"  />
-  <img width="12" />
   <img src="https://skillicons.dev/icons?i=vite" height="60" alt="vite logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=sequelize" height="60" alt="sequelize logo"  />
 </div>
 
 ###
 
 <picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmadsanny2/ahmadsanny2/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmadsanny2/ahmadsanny2/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ahmadsanny2/ahmadsanny2/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmadsanny2/ahmadsanny2/pacman-output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmadsanny2/ahmadsanny2/pacman-output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ahmadsanny2/ahmadsanny2/pacman-output/pacman-contribution-graph.svg">
 </picture>
 
 ###
 
-### Socials:
+### 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ahmadsanny02) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmadsanny02) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ahmadsanijabarulloh.02@gmail.com) 
