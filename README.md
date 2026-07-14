@@ -1,4 +1,4 @@
-![Header](./header.svg)
+![Header](./header.png)
 
 ### 👨‍💻 About Me
 
