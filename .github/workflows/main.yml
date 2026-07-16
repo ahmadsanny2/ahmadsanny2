@@ -1,35 +1,60 @@
-name: generate arcade contribution graphs
+name: Generate Pac-Man Contribution Graph
 
 on:
-  schedule: # run automatically every 12 hours
-    - cron: "0 */12 * * *"
-  workflow_dispatch: # allows to manually run the job at any time
-  push: # run on every push on the main branch
+  # Berjalan setiap hari pada pukul 00.17 dan 12.17 WIB.
+  # Menit 17 digunakan untuk menghindari antrean padat pada awal jam.
+  schedule:
+    - cron: "17 0,12 * * *"
+      timezone: "Asia/Jakarta"
+
+  # Dapat dijalankan manual dari halaman GitHub Actions.
+  workflow_dispatch:
+
+  # Jalankan ketika konfigurasi workflow diubah pada branch main.
+  push:
     branches:
       - main
+    paths:
+      - ".github/workflows/**"
+
+# Mencegah dua proses Pac-Man berjalan bersamaan.
+concurrency:
+  group: pacman-contribution-graph
+  cancel-in-progress: true
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    # Diperlukan untuk membuat atau memperbarui branch output.
+    permissions:
+      contents: write
 
-      - name: generate contribution graph SVGs
-        uses: abozanona/pacman-contribution-graph@main
+    steps:
+      - name: Generate Pac-Man contribution graph
+        uses: abozanona/pacman-contribution-graph@d258e3fb01511c1ff4fe6418408ede37b2ad4935 # v5.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Comma-separated list of valid game names (default: pacman)
-          games: 'pacman'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
 
-      - name: push SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Verify generated SVG files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -s dist/pacman-contribution-graph.svg
+          test -s dist/pacman-contribution-graph-dark.svg
+
+          echo "Pac-Man SVG files were generated successfully."
+
+      - name: Publish SVG files to output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
         with:
           target_branch: output
           build_dir: dist
+          allow_empty_commit: false
+          commit_message: "chore: update Pac-Man contribution graph"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
